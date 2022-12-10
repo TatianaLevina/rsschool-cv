@@ -2,6 +2,32 @@
 body{
     font-family: 'PT Sans Caption', sans-serif;     /*type of font for body*/
 }
+.header{
+    background: linear-gradient(90deg,#ffea9e,#ffd541);
+    color: #fff;
+}
+.nav-item{
+    display: inline;
+    font-size: 22px;
+    
+    list-style: none;
+}
+
+.nav-link{
+    color: rgb(155, 129, 13);
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    font-weight: bold;
+
+}
+.section-title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(155, 129, 13);
+}
 .footer{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -23,7 +49,9 @@ body{
     display: inline-block;
 }
 .img-logors{
-    display: inline-block;
-    width: 20%;
-    height: auto;
+    background-image: url("./assets/img/logo_rs.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 121px;
+    height: 45px;
 }
