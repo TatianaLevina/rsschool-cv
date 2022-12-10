@@ -1,1 +1,29 @@
 /* This file will be with css code */
+body{
+    font-family: 'PT Sans Caption', sans-serif;     /*type of font for body*/
+}
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    background-color: #ffd541;
+}
+.footer p{
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+}
+.footer-link{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.footer a{
+    display: inline-block;
+}
+.img-logors{
+    display: inline-block;
+    width: 20%;
+    height: auto;
+}
