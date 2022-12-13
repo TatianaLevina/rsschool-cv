@@ -5,6 +5,7 @@ body{
 .header{
     background: linear-gradient(90deg,#ffea9e,#ffd541);
     color: #fff;
+    font-size: 22px;
 }
 .nav-item{
     display: inline;
@@ -23,10 +24,71 @@ body{
 }
 .section-title{
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     text-align: center;
     text-transform: uppercase;
     color: rgb(155, 129, 13);
+}
+
+.summary-text{
+    font-size: 22px;
+    color:rgb(155, 129, 13);
+    text-align: center;
+
+}
+#work{
+    /*border: 2px solid #ffd541;*/
+    width: 450px;
+    height: 280px;
+    box-shadow: 1px 2px 3px 4px rgba(155, 129, 13, 0.5);
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.work-item{
+    font-size: 18px;
+    color:rgb(155, 129, 13);
+    line-height: 1.5em;
+}
+#education{
+    width: 450px;
+    height: 280px;
+    box-shadow: 1px 2px 3px 4px rgba(155, 129, 13, 0.5);
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.educ-item{
+    font-size: 18px;
+    color:rgb(155, 129, 13);
+    line-height: 1.5em;
+}
+#skills{
+    width: 450px;
+    height: 290px;
+    box-shadow: 1px 2px 3px 4px rgba(155, 129, 13, 0.5);
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.skills-item{
+    font-size: 18px;
+    color:rgb(155, 129, 13);
+    line-height: 1.5em;
+}
+#code{
+    width: 450px;
+    height: 290px;
+    box-shadow: 1px 2px 3px 4px rgba(155, 129, 13, 0.5);
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.code-text{
+    font-size: 16px;
+    color:rgb(155, 129, 13);
+
 }
 .footer{
     padding-top: 20px;
